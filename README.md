@@ -23,3 +23,6 @@ This project is a smart wearable assistant for visually impaired individuals. It
 ## 📦 Requirements
 ```bash
 pip install pytesseract opencv-python pyttsx3
+
+
+💼 Looking for help with OCR projects, embedded AI, or smart vision systems? Hire me for freelance work! Contact:antonyvaslin@gmail.com
