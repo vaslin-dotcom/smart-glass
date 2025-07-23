@@ -201,5 +201,5 @@ def run_real_time_ocr(model_path, lang="eng"):
 # Run the Real-Time Pipeline
 # ==============================
 if __name__ == "__main__":
-    model_path = r"D:\PTU FILES\final project\fpn_fcn_checkpoint_epoch_50.h5"
+    model_path = "model/fpn_fcn_checkpoint_epoch_50.h5"
     run_real_time_ocr(model_path, lang="eng")
