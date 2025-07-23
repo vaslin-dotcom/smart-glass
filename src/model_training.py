@@ -114,8 +114,8 @@ def build_fpn_model(input_shape):
     model = tf.keras.Model(inputs, [text_kernel_map, text_height_map])
     return model
 
-image_dir = "/content/drive/MyDrive/dataset/training_data/images"
-annotation_dir = "/content/drive/MyDrive/dataset/training_data/annotations"
+image_dir = "data/images"
+annotation_dir = "data/annotations"
 
 batch_size = 1
 train_generator = TextMapGenerator(image_dir, annotation_dir, batch_size=batch_size, min_size=320, max_size=1280)
